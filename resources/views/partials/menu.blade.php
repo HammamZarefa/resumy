@@ -2,7 +2,8 @@
 
     <div class="c-sidebar-brand d-md-down-none">
         <a class="c-sidebar-brand-full h4" href="#">
-            {{ trans('panel.site_title') }}
+            {{-- trans('panel.site_title')  --}}
+            <img width="150" height="100" src="{{ asset('img/logo.png') }}" alt="">
         </a>
     </div>
 
